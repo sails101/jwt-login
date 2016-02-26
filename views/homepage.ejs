@@ -1,0 +1,7 @@
+<h2>Home page</h2>
+<% if (req.user) { %>
+<h3>You are logged in as <%=req.user.name%>! </h3>
+<a href="/profile">View Profile</a> <a href="/logout">Logout</a>
+<% } else { %>
+<a href="/login">Login</a> | <a href="/signup">Signup</a>
+<% } %>
