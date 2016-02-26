@@ -1,5 +1,8 @@
 {
   "generators": {
     "modules": {}
+  },
+  "hooks": {
+    "session": false
   }
 }
